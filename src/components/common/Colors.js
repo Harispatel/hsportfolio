@@ -1,0 +1,18 @@
+export const COLORS = {
+    SKY_BLUE: '#008fd6',
+    WHITE: '#fff',
+    TRANSPARENT: '#ffffff0a',
+    BLACK: '#000',
+    YELLOW: 'rgb(255, 238, 0)',
+    GREEN: '#00FF00',
+    GREY: '#808080',
+    ORANGE: '#FFA500',
+    PRIMARY: '#007bff',
+    SECONDARY: '#6c757d',
+    SUCCESS: '#28a745',
+    DANGER: '#dc3545',
+    WARNING: '#ffc107',
+    INFO: '#17a2b8',
+    DARK: '#343a40',
+    MUTED: '#6c757d',
+}
