@@ -3,7 +3,7 @@ export const COLORS = {
     WHITE: '#fff',
     TRANSPARENT: '#ffffff0a',
     BLACK: '#000',
-    YELLOW: 'rgb(255, 238, 0)',
+    YELLOW_BG: '#e9d5a1',
     GREEN: '#00FF00',
     GREY: '#808080',
     ORANGE: '#FFA500',
@@ -15,4 +15,5 @@ export const COLORS = {
     INFO: '#17a2b8',
     DARK: '#343a40',
     MUTED: '#6c757d',
+    PROJECT_BG:'#3a3b3c',
 }

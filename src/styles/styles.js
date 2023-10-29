@@ -2,13 +2,17 @@ import { COLORS } from "../components/common/Colors";
 
 
 export const styles = {
-    devIcon: { width: '200px', height: '30%', borderRadius: 5 },
+    devIcon: { width: '150px', borderRadius: 5 },
     contentStyle : {
         margin: 0,
-        marginTop:'50px',
+        paddingTop:'12%',
+        paddingBottom:'12%',
         color: '#fff',
         textAlign: 'center',
-        background: COLORS.TRANSPARENT, 
+        
       },
-      typingStyle:{color:COLORS.DARK,fontSize:20,marginTop:-20}
+      typingStyle:{color:COLORS.DARK,fontSize:20,position:'absolute',textAlign:'center',left:'40%', marginTop:50},
+      nameTitle:{
+        marginBottom:50
+      }
 }
