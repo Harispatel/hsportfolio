@@ -15,6 +15,13 @@ import TAILWIND from '../assets/Images/Tailwind.png'
 import NODE from '../assets/Images/Node.png'
 import MY_SQL from '../assets/Images/mysql.png'
 
+// Project Image Imports
+import DENTAL1 from '../assets/Images/Projects/dental1.png'
+import DENTAL2 from '../assets/Images/Projects/dental2.png'
+import PB1 from '../assets/Images/Projects/phonebook2.png'
+import PB2 from '../assets/Images/Projects/phonebook1.png'
+
+
 export const IMAGES = {
     LIGHT_IMG: HSP_LIGHT,
     DARK_IMG: HSP_DARK,
@@ -30,5 +37,11 @@ export const IMAGES = {
     PHP:PHP,
     TAILWIND:TAILWIND,
     NODE:NODE,
-    MY_SQL:MY_SQL
+    MY_SQL:MY_SQL,
+
+    // Project Images
+    DENTAL1:DENTAL1,
+    DENTAL2:DENTAL2,
+    PB1:PB1,
+    PB2:PB2,
 }

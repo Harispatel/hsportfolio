@@ -15,7 +15,7 @@ function About({props}) {
     <p className="page-title" style={{color:props.isDM?COLORS.WHITE:COLORS.DARK}}>About Me</p>
       <div className="row">
 <Row>
-  <Col xs={12} xl={6} lg={6}>
+  <Col xs={20} sm={14} xl={6} lg={6}>
       {loading?<Card style={{ width: 300 }} loading={loading}>
         <Meta
           // avatar={<Avatar src="https://xsgames.co/randomusers/avatar.php?g=pixel&key=1" />}
@@ -47,13 +47,13 @@ function About({props}) {
   <Col xs={20} xl={16} lg={12} className="details-card">
     <Card hoverable type="inner" bordered style={{backgroundColor: props.isDM?COLORS.GREY: COLORS.TRANSPARENT}} extra={<>
       <svg height="30" width="30">
-  <circle cx="25" cy="10" r="4" stroke="black" fill={COLORS.GREEN} />
+  <circle cx="25" cy="20" r="5"  fill={COLORS.GREEN} />
 </svg>
     <svg height="30" width="30">
-  <circle cx="15" cy="10" r="4" stroke="black" fill={COLORS.WARNING} />
+  <circle cx="15" cy="20" r="5"  fill={COLORS.WARNING} />
 </svg>
 <svg height="30" width="30">
-  <circle cx="8" cy="10" r="4" stroke="black" fill={COLORS.DANGER} />
+  <circle cx="8" cy="20" r="5"  fill={COLORS.DANGER} />
 </svg></>}>
 <p className="details-text">Experienced web developer with over 3+ years of expertise in designing and developing visually appealing, user-centric websites and applications. Proficient in front-end and
 back-end technologies, Passionate about staying updated with the latest web development

@@ -14,5 +14,5 @@ export const styles = {
       typingStyle:{color:COLORS.DARK,fontSize:20,position:'absolute',textAlign:'center',left:'40%', marginTop:50},
       nameTitle:{
         marginBottom:50
-      }
+      },
 }

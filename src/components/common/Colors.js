@@ -14,6 +14,5 @@ export const COLORS = {
     WARNING: '#ffc107',
     INFO: '#17a2b8',
     DARK: '#343a40',
-    MUTED: '#6c757d',
     PROJECT_BG:'#3a3b3c',
 }
