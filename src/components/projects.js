@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
-import { COLORS } from './common/Colors'
 import { Badge, Card, Col, Row } from 'antd'
+
+// Common Imports
+import { COLORS } from './common/Colors'
 import ProjectModal from './common/projectModal'
 import { ProjectsData } from './common/data'
 import '../styles/App.css'
@@ -28,12 +30,12 @@ function Projects({ props, isProjecModalOpen, handleClose, handleOpen }) {
             <Row gutter={16}>
                 {ProjectsData.map((item, key) => {
                     return (
-                        <Col key={key} xs={20} sm={14} xl={6} lg={6}>
+                        <Col key={key} xs={20} sm={14} xl={8} lg={6}>
                             <Card
                                 className="project-card"
                                 cover={
                                     <PopUp
-                                        placement={'top'}
+                                        placement={'bottom'}
                                         title={'Click for Details'}
                                         arrow={true}
                                     >
@@ -49,7 +51,7 @@ function Projects({ props, isProjecModalOpen, handleClose, handleOpen }) {
                                 }
                             >
                                 <Badge
-                                    className=""
+                                    className="year-badge"
                                     count={item?.year}
                                     overflowCount={99999}
                                     style={{
@@ -64,21 +66,12 @@ function Projects({ props, isProjecModalOpen, handleClose, handleOpen }) {
                                     item={selectedData}
                                     isProjecModalOpen={isProjecModalOpen}
                                     handleClose={handleClose}
+                                    props={props}
                                 />
                             </Card>
                         </Col>
                     )
                 })}
-                {/* <Col span={8}>
-            <Card>
-              Card content
-            </Card>
-          </Col>
-          <Col span={8}>
-            <Card>
-              Card content
-            </Card>
-          </Col> */}
             </Row>
         </div>
     )

@@ -1,18 +1,23 @@
-import { COLORS } from "../components/common/Colors";
-
-
 export const styles = {
     devIcon: { width: '150px', borderRadius: 5 },
-    contentStyle : {
+    contentStyle: {
         margin: 0,
-        paddingTop:'12%',
-        paddingBottom:'12%',
+        paddingTop: '12%',
+        paddingBottom: '12%',
         color: '#fff',
         textAlign: 'center',
-        
-      },
-      typingStyle:{color:COLORS.DARK,fontSize:20,position:'absolute',textAlign:'center',left:'40%', marginTop:50},
-      nameTitle:{
-        marginBottom:50
-      },
+    },
+    typingStyle: {
+        fontSize: 20,
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    nameTitle: {
+        marginBottom: 50,
+    },
 }

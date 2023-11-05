@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import { Carousel, Image, Modal, Spin, Typography } from 'antd'
+import { Carousel, Image, Modal, Row, Spin, Typography } from 'antd'
 import { ArrowRightOutlined, ArrowLeftOutlined } from '@ant-design/icons'
 
-function ProjectModal({ item, isProjecModalOpen, handleClose }) {
+function ProjectModal({ item, isProjecModalOpen, handleClose, props }) {
     const [imageLoading, setImageLoading] = useState(true)
-    const [rows, setRows] = useState(10)
+    const [rows] = useState(10)
     const { Paragraph } = Typography
 
     useEffect(() => {
@@ -18,11 +18,11 @@ function ProjectModal({ item, isProjecModalOpen, handleClose }) {
         <div>
             <Modal
                 title={item?.name}
-                // centered
+                centered
                 open={isProjecModalOpen}
                 onOk={() => handleClose()}
                 onCancel={() => handleClose()}
-                width={'50%'}
+                className='modal-style'
                 styles={modalStyles}
                 cancelButtonProps={{
                     style: {
@@ -57,7 +57,7 @@ function ProjectModal({ item, isProjecModalOpen, handleClose }) {
                     })}
                 </Carousel>
                 <Paragraph
-                className='mt-20'
+                    className="mt-20 description-txt"
                     ellipsis={{
                         rows,
                         expandable: true,
@@ -65,6 +65,34 @@ function ProjectModal({ item, isProjecModalOpen, handleClose }) {
                 >
                     {item?.description}
                 </Paragraph>
+
+                <div className="lang-bg">
+                    <Row
+                        style={{
+                            textAlign: 'center',
+                            justifyContent: 'center',
+                        }}
+                    >
+                        {item?.languages?.map((langImg, key) => {
+                            return (
+                                <div>
+                                    <img
+                                        key={key}
+                                        title={langImg?.title}
+                                        alt="lang-set"
+                                        src={langImg?.img}
+                                        className={
+                                            props.isDM
+                                                ? 'lang-icon'
+                                                : 'lang-icon invert'
+                                        }
+                                    />
+                                </div>
+                            )
+                        })}
+                    </Row>
+                </div>
+                <p>{item?.moreDetails}</p>
             </Modal>
         </div>
     )

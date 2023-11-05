@@ -14,13 +14,15 @@ import PHP from '../assets/Images/PHP.png'
 import TAILWIND from '../assets/Images/Tailwind.png'
 import NODE from '../assets/Images/Node.png'
 import MY_SQL from '../assets/Images/mysql.png'
+import MONGO_DB from '../assets/Images/MongoDB.png'
 
 // Project Image Imports
 import DENTAL1 from '../assets/Images/Projects/dental1.png'
 import DENTAL2 from '../assets/Images/Projects/dental2.png'
 import PB1 from '../assets/Images/Projects/phonebook2.png'
 import PB2 from '../assets/Images/Projects/phonebook1.png'
-
+import PT1 from '../assets/Images/Projects/partimer1.png'
+import PT2 from '../assets/Images/Projects/partimer2_1.png'
 
 export const IMAGES = {
     LIGHT_IMG: HSP_LIGHT,
@@ -29,19 +31,22 @@ export const IMAGES = {
     REACT_LOGO: REACT_LOGO,
     PHP_LOGO: PHP_LOGO,
     NODE_LOGO: NODE_LOGO,
-    REACT_WHITE:REACT_WHITE,
-    HTML:HTML,
-    CSS:CSS,
-    JS:JS,
-    BS:BOOTSTRAP,
-    PHP:PHP,
-    TAILWIND:TAILWIND,
-    NODE:NODE,
-    MY_SQL:MY_SQL,
+    REACT_WHITE: REACT_WHITE,
+    HTML: HTML,
+    CSS: CSS,
+    JS: JS,
+    BS: BOOTSTRAP,
+    PHP: PHP,
+    MONGO: MONGO_DB,
+    TAILWIND: TAILWIND,
+    NODE: NODE,
+    MY_SQL: MY_SQL,
 
     // Project Images
-    DENTAL1:DENTAL1,
-    DENTAL2:DENTAL2,
-    PB1:PB1,
-    PB2:PB2,
+    DENTAL1: DENTAL1,
+    DENTAL2: DENTAL2,
+    PB1: PB1,
+    PB2: PB2,
+    PT1: PT1,
+    PT2: PT2,
 }

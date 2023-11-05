@@ -63,17 +63,41 @@ export const ProjectsData = [
         name: 'Dental Chart',
         year: '2023',
         image: [IMAGES.DENTAL1, IMAGES.DENTAL2],
-        languages: [IMAGES.MY_SQL, IMAGES.HTML, IMAGES.CSS],
-        description: 'Dental chart software is an essential tool for modern dental practitioners, providing a digital platform to record and manage patient information, treatment plans, and clinical data. This detailed description will outline the key features and benefits of a comprehensive dental chart software designed for doctors.',
+        languages: [
+            { title: 'React JS', img: IMAGES.REACT_WHITE },
+            { title: 'Php', img: IMAGES.PHP },
+            { title: 'Bootstrap', img: IMAGES.BS },
+        ],
+        description:
+            'Dental chart software is an essential tool for modern dental practitioners, providing a digital platform to record and manage patient information, treatment plans, and clinical data. This detailed description will outline the key features and benefits of a comprehensive dental chart software designed for doctors.',
+        moreDetails: '',
     },
-
     {
         key: '2',
-        name: 'My Phone Book',
+        name: 'The ParTimers',
         year: '2022',
+        image: [IMAGES.PT1, IMAGES.PT2],
+        languages: [
+            { title: 'Mongo DB', img: IMAGES.MONGO },
+            { title: 'React Native', img: IMAGES.REACT_WHITE },
+        ],
+        description:
+            'The partimer is a dedicated platform for part-time jobs and simplified application processes in the UK. From job advert to (remote) handshake, they provide an end-to-end solution for part time recruitment. Struggling to fit in that interview? Swap a live meeting for a recorded session, and review at your convenience.',
+        moreDetails:
+            'Used Redux and Async Storage, Used Axios for Api Integration Handling multiple user Accounts like, Employer and Employee, Platform indevidually handeled (Ios & Android)',
+    },
+    {
+        key: '3',
+        name: 'My Phone Book',
+        year: '2021',
         image: [IMAGES.PB1, IMAGES.PB2],
-        languages: [IMAGES.MY_SQL, IMAGES.HTML, IMAGES.CSS],
+        languages: [
+            { title: 'Mongo DB', img: IMAGES.MONGO },
+            { title: 'React Native', img: IMAGES.REACT_WHITE },
+        ],
         description:
             'Built around the concept of ‘Vocal for Local’ the App gives users details of services and utilities available in their immediate vicinity. More importantly it gives the local service providers, small scale businesses and vendors a platform for getting noticed by their prospective customers',
+        moreDetails:
+            'Used Redux and Async Storage, Used Axios for Api Integration Memoization for best Performance Geo location to fetch user Current Location',
     },
 ]

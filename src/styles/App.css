@@ -1,172 +1,241 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
-.page-section{
-  margin-bottom: 5%;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+.page-section {
+    margin-bottom: 5%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-.page-title{
-  font-size: larger;
-  text-align: center;
-  text-transform: uppercase;
-  padding-bottom: 50px;
+.page-title {
+    font-size: larger;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 50px;
 }
+/* fontSize:20,position:'absolute',textAlign:'center',left:'40%', marginTop:50 */
 
-.class-span{
-  background-color: 'rgba(0, 0, 0, 0.03)'; 
-  color: white; 
-  font-family: -apple-system, BlinkMacSystemFont;
-  font-size: 10px;
+.class-span {
+    background-color: 'rgba(0, 0, 0, 0.03)';
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont;
+    font-size: 10px;
 }
-.details-card{
-  margin-top: 1%;
+.details-card {
+    margin-top: 1%;
 }
-.details-text{
-  line-height: 2;
-  font-size: small;
+.details-text {
+    line-height: 2;
+    font-size: small;
 }
 
 /* Skills Styling */
-.skills-logo{
-  height: 28%;
-  width: 28%;
-  padding-left: 5%;
-  align-self: center;
-  justify-content: center;
+.skills-logo {
+    height: 28%;
+    width: 28%;
+    padding-left: 5%;
+    align-self: center;
+    justify-content: center;
 }
-.skills-icon{
-  /* height: 100%; */
-  width: 60px;
-  padding-left: 5%;
-  align-self: center;
-  justify-content: center; 
+.skills-icon {
+    /* height: 100%; */
+    width: 60px;
+    padding-left: 5%;
+    align-self: center;
+    justify-content: center;
 }
-.icon-container{
-  height: 50px;
-  width: 50px;
-  background-color: rgba(248,245,244,.05);
-  padding: 15px;
-  border-radius: 10px;
-  margin-right: 10px;
+.icon-container {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(248, 245, 244, 0.05);
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 10px;
 }
-.skills-section{
-  margin-top: -5%;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 20%;
+.skills-section {
+    margin-top: -5%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20%;
 }
-.skill-container{
-  margin-left: 10px;
-  align-self: center;
-  margin-bottom: 10px;
+.skill-container {
+    margin-left: 10px;
+    align-self: center;
+    margin-bottom: 10px;
 }
-.skill-title{
-  color: white;
-  text-transform: uppercase;
-  font-size: 12px;
+.skill-title {
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
 }
-.light-dark:hover{
-opacity: 100%;
+.light-dark:hover {
+    opacity: 100%;
     transition: all 1s ease;
 }
 
-.light-dark{
-  opacity: 0.3;
-  transition: all 1s ease;
-  }
+.light-dark {
+    opacity: 0.3;
+    transition: all 1s ease;
+}
 
-  /* Project Styling */
-  
-.project-section{
-  margin-top: -5%;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+/* Project Styling */
+
+.project-section {
+    margin-top: -5%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-.project-card{
-  box-shadow: 0px 0px 15px rgb(77, 77, 77);
-  transition: all 0.5s ease;
+.project-card {
+    box-shadow: 0px 0px 15px rgb(77, 77, 77);
+    transition: all 0.5s ease;
 }
-.project-card:hover{
-  transform: scale(1.05); 
-  transition: all 0.5s ease;
-  box-shadow: 0px 0px 25px rgb(0, 0, 0);
+.project-card:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 25px rgb(0, 0, 0);
 }
-  .project-img{
+.project-img {
     width: 100%;
-    height: 150px;
-  }
-  .project-title{
+    height: 200px;
+}
+.project-title {
     text-align: center;
     text-transform: uppercase;
-  }
+}
+.year-badge{
+    position: absolute;
+    left: 42%;
+    text-align: center;
+    align-self: center;
+    bottom: 0;
+}
 
-  @media only screen and (max-width: 900px) {
-    .project-card{
-     margin-bottom: 20px;
+@media only screen and (max-width: 900px) {
+    .project-card {
+        margin-bottom: 20px;
     }
-  }
-
-
-  @media only screen and (max-width: 600px) {
-    .project-card{
-     margin-bottom: 20px;
+    .description-txt{
+      font-size: small;
     }
-    .project-img{
-      padding: 20px;
-      width: 100%;
-    }   
-  }
-  .project-preview{
+    .modal-style{
+        width: 100%;
+    }
+    .icon-container {
+        height: 30px;
+        width: 30px;
+        background-color: rgba(248, 245, 244, 0.05);
+        padding: 15px;
+        border-radius: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .project-card {
+        margin-bottom: 20px;
+    }
+    .project-img {
+        /* padding: 20px; */
+        width: 100%;
+        height: 150px;
+    }
+    .modal-style{
+        width: 100%;
+    }
+}
+.modal-style{
+    width: 50%;
+}
+.project-preview {
     margin-right: 20px;
-  }
-  /* Common Styling */
-  .mt-10{
+}
+/* Common Styling */
+.mt-10 {
     margin-top: 10px;
-  }
-  .mt-20{
+}
+.mt-20 {
     margin-top: 20px;
-  }
-  .mt-30{
+}
+.mt-30 {
     margin-top: 30px;
-  }
+}
+.lang-bg {
+  /* background-color: #282c34; */
+    text-align: center;
+    border-radius: 10px;
+}
+.lang-icon {
+    padding: 5px;
+    width: 35px;
+}
+
+/*Filter styles*/
+.saturate { filter: saturate(3); }
+.grayscale { filter: grayscale(100%); }
+.contrast { filter: contrast(160%); }
+.brightness { filter: brightness(0.25); }
+.blur { filter: blur(3px); }
+.invert { filter: invert(100%); }
+.sepia { filter: sepia(100%); }
+.huerotate { filter: hue-rotate(180deg); }
+.rss.opacity { filter: opacity(50%); }
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+/* Typing */
+.typing-text{
+    color: red;
+}

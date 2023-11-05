@@ -1,8 +1,10 @@
 import React from "react";
-import { COLORS } from "./common/Colors";
-import { Col, Row, Tooltip } from "antd";
-import { SkillsList } from "./common/data";
 import { Html5Outlined} from '@ant-design/icons';
+import { Col, Row, Tooltip } from "antd";
+
+// Common Imports
+import { COLORS } from "./common/Colors";
+import { SkillsList } from "./common/data";
 
 
 function Skills(props) {
@@ -14,7 +16,7 @@ function Skills(props) {
         {SkillsList?.map((data,key) =>{ 
         return(
             <Tooltip key={key} placement="top" title={data.title} arrow={true}>
-        <Col  xs={8} xl={2} lg={2} className="skill-container">
+        <Col  xs={7} xl={2} lg={2} className="skill-container">
         {data.key=='3'?<Html5Outlined className="skills-icon icon-container" style={{ fontSize: '12vh', color: COLORS.WHITE }}/>: <img alt="skills-set" src={data.image} className="skills-icon icon-container"/>}
                     <p className="skill-title">{data.title}</p>
                 </Col>
