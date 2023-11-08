@@ -8,7 +8,7 @@ export const styles = {
         textAlign: 'center',
     },
     typingStyle: {
-        fontSize: 20,
+        fontSize: 15,
         position: 'absolute',
         top: 0,
         left: 0,
@@ -20,4 +20,7 @@ export const styles = {
     nameTitle: {
         marginBottom: 50,
     },
+    mb_50:{
+        marginBottom: 50,
+    }
 }

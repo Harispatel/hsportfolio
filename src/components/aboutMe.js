@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
-import { Avatar, Card, Col, Row } from 'antd'
+import { Avatar, Button, Card, Col, Row } from 'antd'
 import Meta from 'antd/es/card/Meta'
 
+import { EyeOutlined } from '@ant-design/icons'
 import '../styles/App.css'
 import { IMAGES } from '../assets/IMAGES'
 import { COLORS } from './common/Colors'
+import Dots from './common/dots'
 
 function About({ props }) {
     const [loading, setLoading] = useState(true)
@@ -84,32 +86,7 @@ function About({ props }) {
                                     : COLORS.TRANSPARENT,
                             }}
                             extra={
-                                <>
-                                    <svg height="30" width="30">
-                                        <circle
-                                            cx="25"
-                                            cy="20"
-                                            r="5"
-                                            fill={COLORS.GREEN}
-                                        />
-                                    </svg>
-                                    <svg height="30" width="30">
-                                        <circle
-                                            cx="15"
-                                            cy="20"
-                                            r="5"
-                                            fill={COLORS.WARNING}
-                                        />
-                                    </svg>
-                                    <svg height="30" width="30">
-                                        <circle
-                                            cx="8"
-                                            cy="20"
-                                            r="5"
-                                            fill={COLORS.DANGER}
-                                        />
-                                    </svg>
-                                </>
+                                <Dots/>
                             }
                         >
                             <p className="details-text">
@@ -121,6 +98,17 @@ function About({ props }) {
                                 updated with the latest web development trends
                                 and continuously enhancing skills.
                             </p>
+                            <Button
+                                target="_blank"
+                                href="https://drive.google.com/file/d/1y8MhBX32sfdiw496Wr3dgo9jOXeaFQdP/view?usp=drive_link"
+                                type="default"
+                                shape="round"
+                                icon={<EyeOutlined />}
+                                size={30}
+                                className='resume-btn'
+                            >
+                                View Resume
+                            </Button>
                         </Card>
                     </Col>
                 </Row>

@@ -7,6 +7,8 @@ import Projects from '../../components/projects'
 import Skills from '../../components/skills'
 import { ArrowUpOutlined, BulbFilled, BulbOutlined } from '@ant-design/icons'
 import { FloatButton, Tooltip } from 'antd'
+import Experience from '../../components/experience'
+import Stats from '../../components/stats'
 
 function HomeView({ props }) {
     const [isProjecModalOpen, setProjectModalOpen] = useState(false)
@@ -46,6 +48,8 @@ function HomeView({ props }) {
                 handleClose={handleClose}
                 handleOpen={handleOpen}
             />
+            <Stats props={props}/>
+            {/* <Experience props={props}/> */}
         </div>
     )
 }

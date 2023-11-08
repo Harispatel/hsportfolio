@@ -101,3 +101,95 @@ export const ProjectsData = [
             'Used Redux and Async Storage, Used Axios for Api Integration Memoization for best Performance Geo location to fetch user Current Location',
     },
 ]
+
+export const experienceItems = [
+    {
+        label: '2017-03-01',
+        children: <div className="exprnc-timeline">test</div>,
+    },
+    {
+        children: 'Solve initial network problems 2015-09-01',
+    },
+    {
+        // dot: (
+        //     <ClockCircleOutlined
+        //         style={{ fontSize: '16px' }}
+        //     />
+        // ),
+        children: `Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.`,
+    },
+    {
+        // color: 'red',
+        children: 'Network problems being solved 2015-09-01',
+    },
+    {
+        children: 'Create a services site 2015-09-01',
+    },
+    {
+        // dot: (
+        //     <ClockCircleOutlined
+        //         style={{ fontSize: '16px' }}
+        //     />
+        // ),
+        children: 'Technical testing 2015-09-01',
+    },
+]
+
+export const Testimonial = [
+    {
+        key: '1',
+        name: 'sibanatechopc',
+        location: 'India',
+        rate: '5',
+        response:
+            'Great job and Nice work .Harispatel is very patient and seller is very professional with great intuition.Definately would like to work with on future projects.',
+    },
+    {
+        key: '2',
+        name: 'jahadappleton',
+        location: 'Jamaica',
+        rate: '5',
+        response:
+            'Extremely one of the best on Fiverr. Lovely working with his team, I definitely will be using his service in near future.',
+    },
+    {
+        key: '3',
+        name: 'randomthingsfro',
+        location: 'United Kingdom',
+        rate: '5',
+        response: 'I love the work they do',
+    },
+    {
+        key: '4',
+        name: 'alpeshbhalani',
+        location: 'India',
+        rate: '5',
+        response:
+            'Veri Nice person. Ready to incorporate suggestions, prompt communication, good understanding of customers need. Thank you.',
+    },
+    {
+        key: '5',
+        name: 'venkat_selvaraj',
+        location: 'United Kingdom',
+        rate: '5',
+        response:
+            'Very satisfied with the final outcome. Great commitment to deliver quality service. Cheers team. Will get back again.',
+    },
+    {
+        key: '6',
+        name: 'jshank29',
+        location: 'United States',
+        rate: '5',
+        response:
+            'Very easy to work with, made the changes I asked for. Would work with them again.',
+    },
+    
+    {
+        key: '7',
+        name: 'sandragerth',
+        location: 'Netherlands',
+        rate: '5',
+        response:
+            'Our video needed some adjustments and it was done quick and it got better and better. Truly appreciate the effort, creativity and fast delivery. Working with hasrispatel62 was like being in a team. I would recommend having a beautiful video done by harispatel62.',
+    },
+]
