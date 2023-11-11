@@ -111,26 +111,15 @@ export const experienceItems = [
         children: 'Solve initial network problems 2015-09-01',
     },
     {
-        // dot: (
-        //     <ClockCircleOutlined
-        //         style={{ fontSize: '16px' }}
-        //     />
-        // ),
         children: `Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.`,
     },
     {
-        // color: 'red',
         children: 'Network problems being solved 2015-09-01',
     },
     {
         children: 'Create a services site 2015-09-01',
     },
     {
-        // dot: (
-        //     <ClockCircleOutlined
-        //         style={{ fontSize: '16px' }}
-        //     />
-        // ),
         children: 'Technical testing 2015-09-01',
     },
 ]
@@ -165,7 +154,7 @@ export const Testimonial = [
         location: 'India',
         rate: '5',
         response:
-            'Veri Nice person. Ready to incorporate suggestions, prompt communication, good understanding of customers need. Thank you.',
+            'Very Nice person. Ready to incorporate suggestions, prompt communication, good understanding of customers need. Thank you.',
     },
     {
         key: '5',
@@ -183,7 +172,7 @@ export const Testimonial = [
         response:
             'Very easy to work with, made the changes I asked for. Would work with them again.',
     },
-    
+
     {
         key: '7',
         name: 'sandragerth',
@@ -193,3 +182,17 @@ export const Testimonial = [
             'Our video needed some adjustments and it was done quick and it got better and better. Truly appreciate the effort, creativity and fast delivery. Working with hasrispatel62 was like being in a team. I would recommend having a beautiful video done by harispatel62.',
     },
 ]
+
+export const profileData = {
+    cover: 'https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/4ac542062caa3bfdbba039a7b83cad14-663910081609262692629/JPEG_20201229_225451_505202606.jpg',
+
+    img: 'https://fiverr-res.cloudinary.com/t_profile_thumb,q_auto,f_auto/attachments/profile/photo/4ac542062caa3bfdbba039a7b83cad14-663910081609262692629/JPEG_20201229_225451_505202606.jpg',
+
+    loader: 'https://xsgames.co/randomusers/avatar.php?g=pixel&key=1',
+
+    // Links
+    fiverr: 'https://www.fiverr.com/harispatel62',
+    linkedin: 'https://www.linkedin.com/in/haris-patel-025377112/',
+    github: 'https://github.com/Harispatel',
+    gitlab: 'https://gitlab.com/harispatel62',
+}

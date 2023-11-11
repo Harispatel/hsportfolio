@@ -1,9 +1,10 @@
 import { Col, Row, Timeline } from 'antd'
 import React from 'react'
+
 import { COLORS } from './common/Colors'
 import '../styles/App.css'
 import { experienceItems } from './common/data'
-// import { experienceItems } from './common/data'
+
 function Experience({ props }) {
     return (
         <div
@@ -24,12 +25,11 @@ function Experience({ props }) {
                         Experience
                     </p>
                     <Timeline
-                    reverse
+                        reverse
                         className="exprnc-timeline"
                         mode="alternate"
                         items={experienceItems}
                     />
-                    
                 </Col>
             </Row>
         </div>

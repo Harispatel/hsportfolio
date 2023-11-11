@@ -150,7 +150,6 @@
     bottom: 0;
 }
 
-
 .modal-style {
     width: 50%;
 }
@@ -234,8 +233,9 @@
 }
 
 /* Testimonials */
-.tsm-container{
-    margin-right: 20px;
+.tsm-container {
+    /* margin-right: 20px; */
+    margin-bottom: 40px;
 }
 .testimonials-title {
     text-align: center;
@@ -261,8 +261,20 @@
 .slick-arrow.slick-prev {
     font-size: 10px !important;
 }
-.tsm-icon{
+.tsm-icon {
     margin-bottom: 10px;
+}
+/* Fiverr Styling */
+.seller-img {
+    border-radius: 200px;
+    background-color: #61dafb;
+    width: 50%;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 50px;
+}
+.cover-img {
+    height: 250px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -301,6 +313,15 @@
         width: 100%;
     }
     .ratings {
-        margin-left: 0px;
+        margin-left: 20px;
     }
+    .fiverr-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.user-name {
+    font-weight: bold;
+    font-size: larger;
 }

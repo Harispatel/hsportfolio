@@ -22,7 +22,7 @@ function ProjectModal({ item, isProjecModalOpen, handleClose, props }) {
                 open={isProjecModalOpen}
                 onOk={() => handleClose()}
                 onCancel={() => handleClose()}
-                className='modal-style'
+                className="modal-style"
                 styles={modalStyles}
                 cancelButtonProps={{
                     style: {

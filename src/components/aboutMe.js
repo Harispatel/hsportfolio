@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { Avatar, Button, Card, Col, Row } from 'antd'
 import Meta from 'antd/es/card/Meta'
-
 import { EyeOutlined } from '@ant-design/icons'
+
 import '../styles/App.css'
 import { IMAGES } from '../assets/IMAGES'
 import { COLORS } from './common/Colors'
@@ -85,9 +85,7 @@ function About({ props }) {
                                     ? COLORS.GREY
                                     : COLORS.TRANSPARENT,
                             }}
-                            extra={
-                                <Dots/>
-                            }
+                            extra={<Dots />}
                         >
                             <p className="details-text">
                                 Experienced web developer with over 3+ years of
@@ -105,7 +103,7 @@ function About({ props }) {
                                 shape="round"
                                 icon={<EyeOutlined />}
                                 size={30}
-                                className='resume-btn'
+                                className="resume-btn"
                             >
                                 View Resume
                             </Button>

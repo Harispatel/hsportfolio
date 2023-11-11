@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { Image } from 'antd'
+import Meta from 'antd/es/card/Meta'
 
 // File Imports
 import { styles } from '../styles/styles'
 import { IMAGES } from '../assets/IMAGES.jsx'
-import Meta from 'antd/es/card/Meta'
 import Typewriter from './typingEffect'
 import { text1, text2, text3 } from './common/data'
 import { COLORS } from './common/Colors'

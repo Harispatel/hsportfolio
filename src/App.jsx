@@ -1,10 +1,11 @@
-import Home from './pages/Home/'
 import { Routes, Route, Navigate } from 'react-router-dom'
+import { ConfigProvider, theme } from 'antd'
+import { useState } from 'react'
+
+import Home from './pages/Home/'
 import Resume from './pages/Resume/'
 import Portfolio from './pages/Portfolio/'
 import Skills from './pages/Skills/'
-import { ConfigProvider, theme } from 'antd'
-import { useState } from 'react'
 
 function App() {
     const { defaultAlgorithm, darkAlgorithm } = theme

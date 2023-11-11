@@ -15,6 +15,7 @@ import TAILWIND from '../assets/Images/Tailwind.png'
 import NODE from '../assets/Images/Node.png'
 import MY_SQL from '../assets/Images/mysql.png'
 import MONGO_DB from '../assets/Images/MongoDB.png'
+import FIVERR from '../assets/Images/Fiverr.png'
 
 // Project Image Imports
 import DENTAL1 from '../assets/Images/Projects/dental1.png'
@@ -41,6 +42,7 @@ export const IMAGES = {
     TAILWIND: TAILWIND,
     NODE: NODE,
     MY_SQL: MY_SQL,
+    FIVERR: FIVERR,
 
     // Project Images
     DENTAL1: DENTAL1,

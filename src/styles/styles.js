@@ -20,7 +20,8 @@ export const styles = {
     nameTitle: {
         marginBottom: 50,
     },
-    mb_50:{
+    mb_50: {
         marginBottom: 50,
-    }
+    },
+    fiverrIcon: { width: '100px', display: 'none' },
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Html5Outlined } from '@ant-design/icons'
-import { Col, Flex, Row, Tooltip } from 'antd'
+import { Flex, Row, Tooltip } from 'antd'
 
 // Common Imports
 import { COLORS } from './common/Colors'
@@ -35,7 +35,6 @@ function Skills(props) {
                             <Flex wrap="wrap" gap="small">
                                 {data.key == '3' ? (
                                     <div>
-
                                         <Html5Outlined
                                             className="skills-icon icon-container"
                                             style={{
@@ -43,17 +42,20 @@ function Skills(props) {
                                                 color: COLORS.WHITE,
                                             }}
                                         />
-                                        <p className="skill-title">{data.title}</p>
+                                        <p className="skill-title">
+                                            {data.title}
+                                        </p>
                                     </div>
                                 ) : (
                                     <div>
-                                        
                                         <img
                                             alt="skills-set"
                                             src={data.image}
                                             className="skills-icon icon-container"
                                         />
-                                    <p className="skill-title">{data.title}</p>
+                                        <p className="skill-title">
+                                            {data.title}
+                                        </p>
                                     </div>
                                 )}
                             </Flex>
