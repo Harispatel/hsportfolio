@@ -38,11 +38,11 @@
 }
 
 .page-section {
-    margin-bottom: 5%;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 10%;
+    /* padding-bottom: 50px; */
+    padding-bottom: 10%;
 }
 .page-title {
     font-size: larger;
@@ -222,14 +222,24 @@
     border-radius: 10px;
 }
 /* Experience */
-
+.exprnc-container{
+    padding-left: 40px;
+    padding-right: 40px;
+}
 .exprnc-title {
-    padding-top: 20px;
+    /* padding-top: 20px; */
+    /* display: block; */
     font-size: 20px;
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 50px;
     text-align: center;
+}
+.expr-desc{
+    font-size: small;
+}
+.expr-subtl{
+    font-size: smaller;
 }
 
 /* Testimonials */
@@ -275,6 +285,9 @@
 }
 .cover-img {
     height: 250px;
+}
+.loading-icon{
+    font-size: 32px;
 }
 
 @media only screen and (max-width: 900px) {

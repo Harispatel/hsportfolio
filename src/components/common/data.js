@@ -102,27 +102,6 @@ export const ProjectsData = [
     },
 ]
 
-export const experienceItems = [
-    {
-        label: '2017-03-01',
-        children: <div className="exprnc-timeline">test</div>,
-    },
-    {
-        children: 'Solve initial network problems 2015-09-01',
-    },
-    {
-        children: `Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.`,
-    },
-    {
-        children: 'Network problems being solved 2015-09-01',
-    },
-    {
-        children: 'Create a services site 2015-09-01',
-    },
-    {
-        children: 'Technical testing 2015-09-01',
-    },
-]
 
 export const Testimonial = [
     {

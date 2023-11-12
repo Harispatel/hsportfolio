@@ -4,6 +4,7 @@ export const COLORS = {
     TRANSPARENT: '#ffffff0a',
     BLACK: '#000',
     YELLOW_BG: '#e9d5a1',
+    LIGHT_BG:'rgb(255 246 223)',
     GREEN: '#00FF00',
     GREY: '#808080',
     ORANGE: '#FFA500',

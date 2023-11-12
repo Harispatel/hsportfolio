@@ -8,6 +8,7 @@ import About from '../../components/aboutMe'
 import Projects from '../../components/projects'
 import Skills from '../../components/skills'
 import Stats from '../../components/stats'
+import Experience from '../../components/experience'
 
 function HomeView({ props }) {
     const [isProjecModalOpen, setProjectModalOpen] = useState(false)
@@ -48,7 +49,7 @@ function HomeView({ props }) {
                 handleOpen={handleOpen}
             />
             <Stats props={props} />
-            {/* <Experience props={props}/> */}
+            <Experience props={props}/>
         </div>
     )
 }

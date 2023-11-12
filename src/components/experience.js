@@ -1,21 +1,21 @@
-import { Col, Row, Timeline } from 'antd'
+import { Col, Row } from 'antd'
 import React from 'react'
 
 import { COLORS } from './common/Colors'
 import '../styles/App.css'
-import { experienceItems } from './common/data'
+import ExperienceDetails from './common/ExperienceDetails'
 
 function Experience({ props }) {
     return (
         <div
-            className="exprnc-container"
+            className="page-section"
             style={{
-                backgroundColor: props.isDM ? COLORS.DARK : COLORS.WHITE,
+                background: props.isDM ? COLORS.SECONDARY : COLORS.LIGHT_BG,
             }}
         >
             <Row>
-                <Col xs={20} sm={14} xl={8} lg={10}></Col>
-                <Col xs={20} sm={14} xl={6} lg={6}>
+                {/* <Col xs={20} sm={14} xl={8} lg={10}></Col> */}
+                <Col xs={20} sm={14} xl={24} lg={20}>
                     <p
                         className="exprnc-title"
                         style={{
@@ -24,13 +24,9 @@ function Experience({ props }) {
                     >
                         Experience
                     </p>
-                    <Timeline
-                        reverse
-                        className="exprnc-timeline"
-                        mode="alternate"
-                        items={experienceItems}
-                    />
                 </Col>
+                <ExperienceDetails props={props}/>
+                
             </Row>
         </div>
     )
