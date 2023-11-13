@@ -18,7 +18,7 @@ function Skills(props) {
                 className="page-title"
                 style={{
                     color: props.isDM ? COLORS.WHITE : COLORS.WHITE,
-                    paddingTop: '10%',
+                    paddingTop: '5%',
                 }}
             >
                 Skills

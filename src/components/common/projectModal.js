@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Carousel, Image, Modal, Row, Spin, Typography } from 'antd'
 import { ArrowRightOutlined, ArrowLeftOutlined } from '@ant-design/icons'
+import { COLORS } from './Colors'
 
 function ProjectModal({ item, isProjecModalOpen, handleClose, props }) {
     const [imageLoading, setImageLoading] = useState(true)
@@ -38,7 +39,7 @@ function ProjectModal({ item, isProjecModalOpen, handleClose, props }) {
                 <Carousel
                     autoplay={200}
                     arrows={true}
-                    nextArrow={<ArrowRightOutlined color="black" />}
+                    nextArrow={<ArrowRightOutlined color={COLORS.BLACK} />}
                     prevArrow={<ArrowLeftOutlined />}
                 >
                     {item?.image?.map((img, key) => {

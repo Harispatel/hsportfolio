@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Image } from 'antd'
 import Meta from 'antd/es/card/Meta'
 
 // File Imports
@@ -8,7 +7,6 @@ import { IMAGES } from '../assets/IMAGES.jsx'
 import Typewriter from './typingEffect'
 import { text1, text2, text3 } from './common/data'
 import { COLORS } from './common/Colors'
-import '../styles/App.css'
 function SliderView({ props }) {
     const [current, setCurrent] = useState(text1)
 
@@ -30,14 +28,15 @@ function SliderView({ props }) {
         >
             <Meta
                 avatar={
-                    <Image.PreviewGroup>
-                        <Image
+                    <a href="https://hspdev.blogspot.com/" title='hsp dev tech blog (Open in new tab)' target='_blank' rel="noopener noreferrer">
+                        <img
+                            alt='logo'
                             style={styles.devIcon}
                             src={
                                 props.isDM ? IMAGES.LIGHT_IMG : IMAGES.DARK_IMG
                             }
                         />
-                    </Image.PreviewGroup>
+                    </a>
                 }
             />
             <h3

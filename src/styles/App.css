@@ -40,7 +40,7 @@
 .page-section {
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 10%;
+    padding-top: 5%;
     /* padding-bottom: 50px; */
     padding-bottom: 10%;
 }
@@ -90,10 +90,10 @@
     margin-left: 30px;
 }
 .skills-section {
-    margin-top: -5%;
+    margin-top: -19px;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 20%;
+    padding-bottom: 5%;
 }
 .skill-container {
     margin-left: 10px;
@@ -119,11 +119,11 @@
 /* Project Styling */
 
 .project-section {
-    margin-top: -5%;
+    /* margin-top: -5%; */
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 3%;
+    padding-bottom: 10%;
 }
 .project-card {
     box-shadow: 0px 0px 15px rgb(77, 77, 77);
@@ -227,8 +227,6 @@
     padding-right: 40px;
 }
 .exprnc-title {
-    /* padding-top: 20px; */
-    /* display: block; */
     font-size: 20px;
     text-align: center;
     text-transform: uppercase;
@@ -294,6 +292,10 @@
     .project-card {
         margin-bottom: 20px;
     }
+    .page-section {
+        padding-left: 40px;
+        padding-right: 0px;
+    }
     .description-txt {
         font-size: small;
     }
@@ -311,6 +313,13 @@
     .ratings {
         margin-left: 0px;
     }
+    .project-section {
+        /* margin-top: -5%; */
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 3%;
+        padding-bottom: 10%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -321,6 +330,14 @@
         /* padding: 20px; */
         width: 100%;
         height: 150px;
+    }
+    .icon-container {
+        height: 20px;
+        width: 20px;
+        background-color: rgba(248, 245, 244, 0.05);
+        padding: 15px;
+        border-radius: 10px;
+        margin-left: 30px;
     }
     .modal-style {
         width: 100%;
@@ -337,4 +354,35 @@
 .user-name {
     font-weight: bold;
     font-size: larger;
+}
+
+/* Contact Section */
+.contact-section{
+    padding-left: 50px;
+    padding-right: 50px;
+ }
+ .contact-icon-container {
+    height: 30px;
+    width: 30px;
+}
+.contact-title {
+    font-size: larger;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.contact-text {
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.contact-icon{
+    font-size: 4vh;
+    color: white;
+    padding-right: 15px;
+}
+.align-center{
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
 }

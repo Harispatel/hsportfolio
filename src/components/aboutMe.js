@@ -3,7 +3,6 @@ import { Avatar, Button, Card, Col, Row } from 'antd'
 import Meta from 'antd/es/card/Meta'
 import { EyeOutlined } from '@ant-design/icons'
 
-import '../styles/App.css'
 import { IMAGES } from '../assets/IMAGES'
 import { COLORS } from './common/Colors'
 import Dots from './common/dots'

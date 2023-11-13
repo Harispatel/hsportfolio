@@ -2,7 +2,6 @@ import { Col, Row } from 'antd'
 import React from 'react'
 
 import { COLORS } from './common/Colors'
-import '../styles/App.css'
 import ExperienceDetails from './common/ExperienceDetails'
 
 function Experience({ props }) {

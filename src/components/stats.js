@@ -21,7 +21,7 @@ function Stats({ props }) {
         <div
             className="exprnc-container page-section"
             style={{
-                backgroundColor: props.isDM ? COLORS.DARK : COLORS.WHITE,
+                backgroundColor: props.isDM ? COLORS.PROJECT_BG : COLORS.WHITE,
             }}
         >
             <p
@@ -62,7 +62,13 @@ function Stats({ props }) {
                 <Col xs={30} sm={17} xl={9} lg={10} className="tsm-container">
                     <Testimonials props={props} />
                 </Col>
-                <Col xs={30} sm={10} xl={6} lg={6} style={styles.mb_50}>
+                <Col
+                    xs={30}
+                    sm={10}
+                    xl={6}
+                    lg={6}
+                    style={{ ...styles.mb_50, paddingLeft: '20px' }}
+                >
                     {loadingStats ? (
                         <Card style={{ width: 300 }} loading={loadingStats}>
                             <Meta
@@ -72,7 +78,7 @@ function Stats({ props }) {
                     ) : (
                         <>
                             <Card
-                                style={{ width: 250 }}
+                                // style={{ width: 250 }}
                                 cover={
                                     <img alt="cover" src={profileData.cover} />
                                 }

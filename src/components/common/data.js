@@ -174,4 +174,6 @@ export const profileData = {
     linkedin: 'https://www.linkedin.com/in/haris-patel-025377112/',
     github: 'https://github.com/Harispatel',
     gitlab: 'https://gitlab.com/harispatel62',
+    gmail:'mailto:harispatel62@gmail.com',
+    whatsapp:'https://wa.me/+919742493219?text=Hi+there%2C+I+have+a+work+for+you.'
 }

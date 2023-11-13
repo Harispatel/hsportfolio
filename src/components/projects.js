@@ -5,7 +5,6 @@ import { Badge, Card, Col, Row } from 'antd'
 import { COLORS } from './common/Colors'
 import ProjectModal from './common/projectModal'
 import { ProjectsData } from './common/data'
-import '../styles/App.css'
 import PopUp from './common/popUpMessage'
 
 function Projects({ props, isProjecModalOpen, handleClose, handleOpen }) {

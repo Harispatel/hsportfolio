@@ -30,6 +30,7 @@ function Testimonials({ props }) {
                 {Testimonial.map((tst, key) => {
                     return (
                         <div
+                            key={key}
                             style={{
                                 textAlign: 'center',
                                 justifyContent: 'center',

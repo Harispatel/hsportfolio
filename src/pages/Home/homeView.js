@@ -10,6 +10,10 @@ import Skills from '../../components/skills'
 import Stats from '../../components/stats'
 import Experience from '../../components/experience'
 
+// Styles css
+import '../../styles/App.css'
+import Contact from '../../components/contact'
+
 function HomeView({ props }) {
     const [isProjecModalOpen, setProjectModalOpen] = useState(false)
     const handleClose = () => {
@@ -50,6 +54,7 @@ function HomeView({ props }) {
             />
             <Stats props={props} />
             <Experience props={props}/>
+            <Contact props={props}/>
         </div>
     )
 }
