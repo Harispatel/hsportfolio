@@ -1,7 +1,5 @@
 import { useState, useEffect } from 'react'
 
-import '../styles/App.css'
-
 const useTypewriter = (text, speed = 50) => {
     const [displayText, setDisplayText] = useState('')
 

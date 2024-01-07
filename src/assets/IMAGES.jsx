@@ -1,7 +1,8 @@
 // Importing Images
 import HSP_LIGHT from '../assets/Images/HSP_LIGHT.png'
 import HSP_DARK from '../assets/Images/HSP_DARK.png'
-import HSP_PROFILE from '../assets/Images/HSP-PROFILE.png'
+// import HSP_PROFILE from '../assets/Images/HSP-PROFILE.png'
+import HSP_PROFILE from '../assets/Images/profilePic.png'
 import PHP_LOGO from '../assets/Images/PHP_logo.png'
 import NODE_LOGO from '../assets/Images/node_js_logo.png'
 import REACT_WHITE from '../assets/Images/React_White.png'

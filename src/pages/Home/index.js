@@ -1,7 +1,7 @@
-import React from "react";
-import HomeView from "./homeView";
+import React from 'react'
+import HomeView from './homeView'
 function index(props) {
-  return <HomeView props={props}/>;
+    return <HomeView props={props} />
 }
 
-export default index;
+export default index

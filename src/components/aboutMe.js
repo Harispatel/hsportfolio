@@ -81,19 +81,45 @@ function About({ props }) {
                             bordered
                             style={{
                                 backgroundColor: props.isDM
-                                    ? COLORS.GREY
+                                    ? COLORS.PROJECT_BG
                                     : COLORS.TRANSPARENT,
                             }}
                             extra={<Dots />}
                         >
                             <p className="details-text">
-                                Experienced web developer with over 3+ years of
+                                I'm Haris Patel, a seasoned web developer with a
+                                rich experience of over 3+ years, complemented
+                                by a robust understanding of Graphics Designing
+                                and (Whiteboard) Video creation & editing.{'\n'}
+                                {/* Experienced web developer with over 3+ years of
                                 expertise in designing and developing visually
                                 appealing, user-centric websites and
                                 applications. Proficient in front-end and
                                 back-end technologies, Passionate about staying
                                 updated with the latest web development trends
-                                and continuously enhancing skills.
+                                and continuously enhancing skills. */}
+                            </p>
+                            <p className="details-text">
+                                In my career of web development, I've been
+                                working on many technologies and developed
+                                multiple skills. Whether it's building
+                                responsive websites, optimizing user
+                                experiences, or implementing cutting-edge
+                                technologies, my expertise ensures that every
+                                project is a testament to excellence.
+                            </p>
+                            <p className="details-text">
+                                Video designing is another facet of my skill
+                                set, where I bring concepts to life through
+                                dynamic visuals and storytelling. Whether it's
+                                whiteboard animations, promotional videos, or
+                                engaging content.
+                            </p>
+                            <p className="details-text">
+                                Proficient in front-end and back-end
+                                technologies, Passionate about staying updated
+                                with the latest web development trends and
+                                continuously enhancing skills.
                             </p>
                             <Button
                                 target="_blank"

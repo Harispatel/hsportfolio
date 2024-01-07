@@ -59,11 +59,11 @@
     font-size: 10px;
 }
 .details-card {
-    margin-top: 1%;
+    /* margin-top: -3%; */
 }
 .details-text {
     line-height: 2;
-    font-size: small;
+    font-size: medium;
 }
 
 /* Skills Styling */
@@ -222,7 +222,7 @@
     border-radius: 10px;
 }
 /* Experience */
-.exprnc-container{
+.exprnc-container {
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -233,10 +233,10 @@
     padding-bottom: 50px;
     text-align: center;
 }
-.expr-desc{
+.expr-desc {
     font-size: small;
 }
-.expr-subtl{
+.expr-subtl {
     font-size: smaller;
 }
 
@@ -284,7 +284,7 @@
 .cover-img {
     height: 250px;
 }
-.loading-icon{
+.loading-icon {
     font-size: 32px;
 }
 
@@ -320,6 +320,9 @@
         padding-top: 3%;
         padding-bottom: 10%;
     }
+    .details-card {
+        margin-top: 2%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -339,6 +342,9 @@
         border-radius: 10px;
         margin-left: 30px;
     }
+    .details-card {
+        margin-top: 2%;
+    }
     .modal-style {
         width: 100%;
     }
@@ -357,11 +363,11 @@
 }
 
 /* Contact Section */
-.contact-section{
+.contact-section {
     padding-left: 50px;
     padding-right: 50px;
- }
- .contact-icon-container {
+}
+.contact-icon-container {
     height: 30px;
     width: 30px;
 }
@@ -376,12 +382,12 @@
     text-transform: uppercase;
     font-size: 12px;
 }
-.contact-icon{
+.contact-icon {
     font-size: 4vh;
     color: white;
     padding-right: 15px;
 }
-.align-center{
+.align-center {
     justify-content: center;
     align-items: center;
     padding-bottom: 30px;

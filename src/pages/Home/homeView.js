@@ -53,8 +53,8 @@ function HomeView({ props }) {
                 handleOpen={handleOpen}
             />
             <Stats props={props} />
-            <Experience props={props}/>
-            <Contact props={props}/>
+            <Experience props={props} />
+            <Contact props={props} />
         </div>
     )
 }
