@@ -58,6 +58,9 @@ function Testimonials({ props }) {
                                     <span className="ratings">
                                         {tst?.location}
                                     </span>
+                                    <span className="ratings">
+                                        Year: {tst?.year}
+                                    </span>
                                 </Col>
                             </Row>
                             <p className="tsm-text">{tst?.response}</p>

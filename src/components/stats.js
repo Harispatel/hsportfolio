@@ -35,7 +35,7 @@ function Stats({ props }) {
             <Row gutter={5}>
                 <Col xs={30} sm={6} xl={6} lg={6} style={styles.mb_50}>
                     {loadingStats ? (
-                        <Card style={{ width: '30%' }} loading={loadingStats}>
+                        <Card style={{ width: '100%' }} loading={loadingStats}>
                             <Meta
                                 avatar={
                                     <Avatar src="https://xsgames.co/randomusers/avatar.php?g=pixel&key=1" />
@@ -45,7 +45,16 @@ function Stats({ props }) {
                             />
                         </Card>
                     ) : (
-                        <a
+                        <>
+                            <a href="https://app.daily.dev/harispatel62"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                            <Image src="https://api.daily.dev/devcards/v2/WVzbZP0WZQu5i72nrMzZd.png?type=default&r=lpk" 
+                            width={'100%'} 
+                            alt="Haris Patel's Dev Card" />
+                            </a>
+                            {/* <a
                             href="https://app.daily.dev/harispatel62"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -56,7 +65,8 @@ function Stats({ props }) {
                                 width={'100%'}
                                 src="https://api.daily.dev/devcards/c575f0a2f4ba41998c6460fd55594fbf.png?r=wxa"
                             />
-                        </a>
+                        </a> */}
+                        </>
                     )}
                 </Col>
                 <Col xs={30} sm={17} xl={9} lg={10} className="tsm-container">
@@ -119,7 +129,7 @@ function Stats({ props }) {
                                             <Avatar src={profileData.img} />
                                         }
                                         title="harispatel62"
-                                        // description=""
+                                    // description=""
                                     />
                                 </a>
                             </Card>

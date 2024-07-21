@@ -9,7 +9,7 @@ function Experience({ props }) {
         <div
             className="page-section"
             style={{
-                background: props.isDM ? COLORS.SECONDARY : COLORS.LIGHT_BG,
+                background: props.isDM ? COLORS.DARK : COLORS.LIGHT_BG,
             }}
         >
             <Row>

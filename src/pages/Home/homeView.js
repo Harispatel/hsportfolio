@@ -45,6 +45,7 @@ function HomeView({ props }) {
             </Tooltip>
             <SliderView props={props} />
             <About props={props} />
+            <Experience props={props} />
             <Skills props={props} />
             <Projects
                 props={props}
@@ -53,7 +54,6 @@ function HomeView({ props }) {
                 handleOpen={handleOpen}
             />
             <Stats props={props} />
-            <Experience props={props} />
             <Contact props={props} />
         </div>
     )

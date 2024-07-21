@@ -61,6 +61,10 @@ function Contact({ props }) {
                         </a>
                     </div>
                 </Flex>
+                <p style={{
+                            color: COLORS.WHITE,
+                            fontSize:10
+                        }}>© 2024</p>
             </Row>
         </div>
     )

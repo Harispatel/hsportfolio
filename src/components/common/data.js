@@ -1,8 +1,8 @@
 import { IMAGES } from '../../assets/IMAGES'
 
-export const text1 = 'FRRONT-END DEVELOPER'
-export const text2 = 'RREACT JS DEVELOPER'
-export const text3 = 'MMOBILE APP DEVELOPER'
+export const text1 = 'FRONT-END DEVELOPER'
+export const text2 = 'REACT JS DEVELOPER'
+export const text3 = 'MOBILE APP DEVELOPER'
 
 export const SkillsList = [
     {
@@ -106,59 +106,93 @@ export const ProjectsData = [
 export const Testimonial = [
     {
         key: '1',
+        name: 'Mike Pagan',
+        location: 'United States',
+        rate: '5',
+        year:'2024',
+        response:
+            'This seller does good work.',
+    },
+    {
+        key: '2',
+        name: 'Mike Pagan',
+        location: 'United States',
+        rate: '5',
+        year:'2024',
+        response:
+            'This seller was a good experience we worked together till he got it right good job thanks',
+    },
+    {
+        key: '3',
         name: 'sibanatechopc',
         location: 'India',
         rate: '5',
+        year:'2021',
         response:
             'Great job and Nice work .Harispatel is very patient and seller is very professional with great intuition.Definately would like to work with on future projects.',
     },
     {
-        key: '2',
+        key: '4',
         name: 'jahadappleton',
         location: 'Jamaica',
         rate: '5',
+        year:'2021',
         response:
             'Extremely one of the best on Fiverr. Lovely working with his team, I definitely will be using his service in near future.',
     },
     {
-        key: '3',
+        key: '5',
         name: 'randomthingsfro',
         location: 'United Kingdom',
         rate: '5',
+        year:'2021',
         response: 'I love the work they do',
     },
     {
-        key: '4',
+        key: '6',
         name: 'alpeshbhalani',
         location: 'India',
         rate: '5',
+        year:'2023',
         response:
             'Very Nice person. Ready to incorporate suggestions, prompt communication, good understanding of customers need. Thank you.',
     },
     {
-        key: '5',
+        key: '7',
         name: 'venkat_selvaraj',
         location: 'United Kingdom',
         rate: '5',
+        year:'2021',
         response:
             'Very satisfied with the final outcome. Great commitment to deliver quality service. Cheers team. Will get back again.',
     },
     {
-        key: '6',
+        key: '8',
         name: 'jshank29',
         location: 'United States',
         rate: '5',
+        year:'2022',
         response:
             'Very easy to work with, made the changes I asked for. Would work with them again.',
     },
 
     {
-        key: '7',
+        key: '9',
         name: 'sandragerth',
         location: 'Netherlands',
         rate: '5',
+        year:'2023',
         response:
             'Our video needed some adjustments and it was done quick and it got better and better. Truly appreciate the effort, creativity and fast delivery. Working with hasrispatel62 was like being in a team. I would recommend having a beautiful video done by harispatel62.',
+    },
+    {
+        key: '10',
+        name: 'sethgreene1',
+        location: 'Canada',
+        rate: '4',
+        year:'2021',
+        response:
+            'Looks good wish the voice sounded a bit better but that is okay!',
     },
 ]
 
@@ -170,10 +204,13 @@ export const profileData = {
     loader: 'https://xsgames.co/randomusers/avatar.php?g=pixel&key=1',
 
     // Links
+    driveLink:'https://drive.google.com/file/d/1lsfemSQaogkUJeDhV0sZ7edcoOGN5szH/view?usp=sharing',
+    devcard:'https://app.daily.dev/harispatel62',
+    blogspot:'https://hspdev.blogspot.com/',
     fiverr: 'https://www.fiverr.com/harispatel62',
     linkedin: 'https://www.linkedin.com/in/haris-patel-025377112/',
     github: 'https://github.com/Harispatel',
     gitlab: 'https://gitlab.com/harispatel62',
-    gmail:'mailto:harispatel62@gmail.com',
+    gmail:'mailto:harispateldev@gmail.com',
     whatsapp:'https://wa.me/+919742493219?text=Hi+there%2C+I+have+a+work+for+you.'
 }

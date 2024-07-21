@@ -4,9 +4,9 @@ import Meta from 'antd/es/card/Meta'
 // File Imports
 import { styles } from '../styles/styles'
 import { IMAGES } from '../assets/IMAGES.jsx'
-import Typewriter from './typingEffect'
-import { text1, text2, text3 } from './common/data'
+import { profileData, text1, text2, text3 } from './common/data'
 import { COLORS } from './common/Colors'
+import { ReactTyped } from 'react-typed'
 function SliderView({ props }) {
     const [current, setCurrent] = useState(text1)
 
@@ -28,7 +28,7 @@ function SliderView({ props }) {
         >
             <Meta
                 avatar={
-                    <a href="https://hspdev.blogspot.com/" title='hsp dev tech blog (Open in new tab)' target='_blank' rel="noopener noreferrer">
+                    <a href={profileData.blogspot} title='hsp dev tech blog (Open in new tab)' target='_blank' rel="noopener noreferrer">
                         <img
                             alt='logo'
                             style={styles.devIcon}
@@ -39,22 +39,25 @@ function SliderView({ props }) {
                     </a>
                 }
             />
-            <h3
+            <h2
                 style={{
                     ...styles.nameTitle,
                     color: props.isDM ? COLORS.LIGHT_IMG : COLORS.DARK,
                 }}
             >
-                HARIS PATEL
-            </h3>
-            <Typewriter
-                CustomStyles={{
-                    ...styles.typingStyle,
-                    color: props.isDM ? COLORS.LIGHT_IMG : COLORS.DARK,
-                }}
-                speed={150}
-                text={current == 'none' ? '' : current}
-            />
+                Haris Patel
+            </h2>
+                <h3 style={{color: props.isDM ? COLORS.LIGHT_IMG : COLORS.DARK}}>
+                    {" "}
+                    <ReactTyped
+                        strings={[text1, text2, text3]}
+                        typeSpeed={100}
+                        loop
+                        backSpeed={10}
+                        cursorChar="|"
+                        showCursor={true}
+                    />
+                </h3>
         </div>
     )
 }

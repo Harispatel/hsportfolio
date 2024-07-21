@@ -7,18 +7,8 @@ export const styles = {
         color: '#fff',
         textAlign: 'center',
     },
-    typingStyle: {
-        fontSize: 15,
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        right: 0,
-        bottom: 0,
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
     nameTitle: {
-        marginBottom: 50,
+        textTransform: 'uppercase',
     },
     mb_50: {
         marginBottom: 50,

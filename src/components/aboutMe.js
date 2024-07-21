@@ -6,6 +6,7 @@ import { EyeOutlined } from '@ant-design/icons'
 import { IMAGES } from '../assets/IMAGES'
 import { COLORS } from './common/Colors'
 import Dots from './common/dots'
+import { profileData } from './common/data'
 
 function About({ props }) {
     const [loading, setLoading] = useState(true)
@@ -27,7 +28,8 @@ function About({ props }) {
                 <Row>
                     <Col xs={20} sm={14} xl={6} lg={6}>
                         {loading ? (
-                            <Card style={{ width: 300 }} loading={loading}>
+                            <Card style={{ width: 300 }} loading={loading}
+                            >
                                 <Meta
                                     avatar={
                                         <Avatar src="https://xsgames.co/randomusers/avatar.php?g=pixel&key=1" />
@@ -87,43 +89,22 @@ function About({ props }) {
                             extra={<Dots />}
                         >
                             <p className="details-text">
-                                I'm Haris Patel, a seasoned web developer with a
-                                rich experience of over 3+ years, complemented
-                                by a robust understanding of Graphics Designing
-                                and (Whiteboard) Video creation & editing.{'\n'}
-                                {/* Experienced web developer with over 3+ years of
-                                expertise in designing and developing visually
-                                appealing, user-centric websites and
-                                applications. Proficient in front-end and
-                                back-end technologies, Passionate about staying
-                                updated with the latest web development trends
-                                and continuously enhancing skills. */}
-                            </p>
-                            <p className="details-text">
-                                In my career of web development, I've been
-                                working on many technologies and developed
-                                multiple skills. Whether it's building
-                                responsive websites, optimizing user
-                                experiences, or implementing cutting-edge
-                                technologies, my expertise ensures that every
-                                project is a testament to excellence.
-                            </p>
-                            <p className="details-text">
-                                Video designing is another facet of my skill
-                                set, where I bring concepts to life through
-                                dynamic visuals and storytelling. Whether it's
-                                whiteboard animations, promotional videos, or
-                                engaging content.
-                            </p>
-                            <p className="details-text">
-                                Proficient in front-end and back-end
-                                technologies, Passionate about staying updated
-                                with the latest web development trends and
-                                continuously enhancing skills.
+                                I'm Haris Patel, a frontend developer with over 3 years of experience. I also have a strong background in graphics designing and video creation & editing.
+                                </p>
+                                <p className="details-text">
+                                Throughout my career in web development, I've worked with various technologies and honed multiple skills. I specialize in building responsive websites, enhancing user experiences, and integrating cutting-edge technologies to deliver top-notch projects.
+                                </p>
+                                <p className="details-text">
+                                I excel in video designing, where I bring concepts to life with dynamic visuals and compelling storytelling. I create engaging content such as whiteboard animations and promotional videos.
+                                </p>
+                                <p className="details-text">
+                                I am proficient in both front-end and back-end technologies, and I am passionate about staying updated with the latest web development and Mobile application development trends to continually enhance my skills.
+
                             </p>
                             <Button
                                 target="_blank"
-                                href="https://drive.google.com/file/d/1y8MhBX32sfdiw496Wr3dgo9jOXeaFQdP/view?usp=drive_link"
+                                href={profileData.driveLink}
+                                // href="https://drive.google.com/file/d/1y8MhBX32sfdiw496Wr3dgo9jOXeaFQdP/view?usp=drive_link"
                                 type="default"
                                 shape="round"
                                 icon={<EyeOutlined />}
