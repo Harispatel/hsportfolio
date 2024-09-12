@@ -6,11 +6,11 @@ import { COLORS } from './Colors'
 function ExperienceDetails({ props }) {
     return (
         <Steps
-            current={4}
-            percent={0}
+            current={5}
+            percent={5}
             items={[
                 {
-                    title: <span>Phenom Sys n Services</span>,
+                    title: <span>Phenom</span>,
                     subTitle: (
                         <span className="expr-subtl">
                             <br />
@@ -38,41 +38,41 @@ function ExperienceDetails({ props }) {
                         </span>
                     ),
                 },
+                // {
+                //     title: 'Digital Belagavi',
+                //     subTitle: (
+                //         <span className="expr-subtl">
+                //             <br />
+                //             (1 yr 11 months)
+                //         </span>
+                //     ),
+                //     icon: (
+                //         <CheckCircleOutlined
+                //             className="loading-icon"
+                //             style={{
+                //                 color: props?.isDM
+                //                     ? COLORS.WHITE
+                //                     : COLORS.SKY_BLUE,
+                //             }}
+                //         />
+                //     ),
+                //     description: (
+                //         <span
+                //             className="expr-desc"
+                //             style={{
+                //                 color: props?.isDM ? COLORS.WHITE : COLORS.DARK,
+                //             }}
+                //         >
+                //             Administrator & Graphics Designer.
+                //         </span>
+                //     ),
+                // },
                 {
-                    title: 'Digital Belagavi',
+                    title: 'Belgaum Online',
                     subTitle: (
                         <span className="expr-subtl">
                             <br />
-                            (05/01/2019 - 21/11/2020)
-                        </span>
-                    ),
-                    icon: (
-                        <CheckCircleOutlined
-                            className="loading-icon"
-                            style={{
-                                color: props?.isDM
-                                    ? COLORS.WHITE
-                                    : COLORS.SKY_BLUE,
-                            }}
-                        />
-                    ),
-                    description: (
-                        <span
-                            className="expr-desc"
-                            style={{
-                                color: props?.isDM ? COLORS.WHITE : COLORS.DARK,
-                            }}
-                        >
-                            Administrator & Graphics Designer.
-                        </span>
-                    ),
-                },
-                {
-                    title: 'Belgaumonline.com',
-                    subTitle: (
-                        <span className="expr-subtl">
-                            <br />
-                            (1 Year)
+                            (1 yr, 1 month)
                         </span>
                     ),
                     icon: (
@@ -101,7 +101,7 @@ function ExperienceDetails({ props }) {
                     subTitle: (
                         <span className="expr-subtl">
                             <br />
-                            (08/2021 - 21/11/2022)
+                            (1 yr 4 months)
                         </span>
                     ),
                     icon: (
@@ -126,11 +126,40 @@ function ExperienceDetails({ props }) {
                     ),
                 },
                 {
-                    title: 'Al Rabeeh Medical Center',
+                    title: 'Al Rabeeh Group',
                     subTitle: (
                         <span className="expr-subtl">
                             <br />
-                            (1/12/2022 - Present)
+                            (1 yr 5 months)
+                        </span>
+                    ),
+                    icon: (
+                        <CheckCircleOutlined
+                            className="loading-icon"
+                            style={{
+                                color: props?.isDM
+                                    ? COLORS.WHITE
+                                    : COLORS.SKY_BLUE,
+                            }}
+                        />
+                    ),
+                    description: (
+                        <span
+                            className="expr-desc"
+                            style={{
+                                color: props?.isDM ? COLORS.WHITE : COLORS.DARK,
+                            }}
+                        >
+                            Software Developer.
+                        </span>
+                    ),
+                },
+                {
+                    title: 'Provab Technosoft',
+                    subTitle: (
+                        <span className="expr-subtl">
+                            <br />
+                            (Aug-2024 - Present)
                         </span>
                     ),
                     icon: (
@@ -150,7 +179,7 @@ function ExperienceDetails({ props }) {
                                 color: props?.isDM ? COLORS.WHITE : COLORS.DARK,
                             }}
                         >
-                            Web Application Developer & IT Admin.
+                            Mobile Application Developer.
                         </span>
                     ),
                 },

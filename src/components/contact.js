@@ -5,6 +5,7 @@ import {
     MailOutlined,
     WhatsAppOutlined,
     GithubOutlined,
+    GitlabOutlined
 } from '@ant-design/icons'
 
 import { COLORS } from './common/Colors'
@@ -58,6 +59,13 @@ function Contact({ props }) {
                             rel="noopener noreferrer"
                         >
                             <GithubOutlined className="contact-icon-container contact-icon" />
+                        </a>
+                        <a
+                            href={profileData.gitlab}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <GitlabOutlined className="contact-icon-container contact-icon" />
                         </a>
                     </div>
                 </Flex>
